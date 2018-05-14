@@ -3,13 +3,13 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 
-var prefix = ("!:")
+var prefix = ("!!")
 
 bot.on('ready', function() {
     bot.user.setActivity("ChainStrike | Besoin d'aide ? => !:aide")
 });
 
-bot.login("NDQzNzIxOTU5OTgxNzExMzYy.DdRo7A.rrkY2xg2CYv94um7pV-iLt1NPFs");
+bot.login("#######");
 
 bot.on('message', message => {
 
